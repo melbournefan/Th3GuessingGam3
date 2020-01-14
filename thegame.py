@@ -1,10 +1,5 @@
-from asciimatics.screen import Screen
+from pyfiglet import Figlet
 from random import seed
-from time import sleep
 
-def mainscreen(screen):
-    screen.print_at('Th3GuessingGam3', 0, 0,)
-    screen.refresh()
-    sleep(10)
-
-Screen.wrapper(mainscreen)
+f = Figlet(font='slant')
+print f.renderText('Th3GuessingGam3')
