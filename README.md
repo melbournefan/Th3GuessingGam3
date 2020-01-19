@@ -1,2 +1,6 @@
 # Th3GuessingGam3
-A simple python game run in a CLI that lets you guess if a randomly generated number is higher or lower than what you inputted!
+#### The simple number guessing game that features ACSII!!
+
+#### Dependencies:
+
+- 'ART' - used to create the ACSII graphics, to install:
