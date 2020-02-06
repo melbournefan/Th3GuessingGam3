@@ -2,9 +2,11 @@ import random
 
 rdmb = random.randint(1, 10)
 answr = "S"
+ext = "H"
+print("Welcome to Tha3GuessingGam3. Press the 'S' key to contiune \n")
 while answr == "S":
-    gss = input("Welcome to Tha3GuessingGam3. Type a number from 1 to 10, remember if you want to exit you can press the 'H' Key \n")
-    if gss == 'H':
+    input("Type a number from 1 to 10, remember if you want to exit you can press the 'H' Key \n")
+    if ext == 'H':
         print("Thanks 4 playing, goodbai")
         break
 
