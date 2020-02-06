@@ -7,5 +7,5 @@ while answr == "S":
     if gss == 'H':
         break
 
-    elif int(guess) > num:
+    elif int(gss) > rdmb:
         print("Worng, please input a LOWER number")
