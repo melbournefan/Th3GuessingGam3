@@ -2,9 +2,10 @@ import random
 
 rdmb = random.randint(1, 20)
 answr = "S"
-print ('Welcome to Tha3GuessingGam3, press the S key to start')
-
 while answr == "S":
-    gss = input("Type a number from 1 to 20, remember if you want to exit you can press the 'H' Key.")
+    gss = input("Welcome to Tha3GuessingGam3. Type a number from 1 to 20, remember if you want to exit you can press the 'H' Key \n")
     if gss == 'H':
         break
+
+    elif int(guess) > num:
+        print("Worng, please input a LOWER number")
