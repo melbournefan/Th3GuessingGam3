@@ -1,5 +1,3 @@
-from pyfiglet import Figlet
 from random import seed
 
-f = Figlet(font='slant')
-print f.renderText('Th3GuessingGam3')
+print 'Welcome to Tha3GuessingGam3, press the S key to start'
