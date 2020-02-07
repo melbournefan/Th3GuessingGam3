@@ -1,10 +1,10 @@
 import random
 
 rdmb = random.randint(1, 10)
-answr = "S"
+gss = "S"
 ext = "H"
 print("Welcome to Tha3GuessingGam3. Press")
-while answr == "S":
+while gss == "S":
     input("Type a number from 1 to 10, remember if you want to exit you can press the 'H' Key \n")
     if ext == 'H':
         print("Thanks 4 playing, goodbai")
